@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00236582658ECC00031AD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00236572658ECC00031AD8B /* AppDelegate.swift */; };
+		A002365A2658ECC00031AD8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00236592658ECC00031AD8B /* SceneDelegate.swift */; };
+		A002365C2658ECC00031AD8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002365B2658ECC00031AD8B /* ViewController.swift */; };
+		A002365F2658ECC00031AD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A002365D2658ECC00031AD8B /* Main.storyboard */; };
+		A00236612658ECC30031AD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00236602658ECC30031AD8B /* Assets.xcassets */; };
+		A00236642658ECC30031AD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00236622658ECC30031AD8B /* LaunchScreen.storyboard */; };
+		A002366F2658ECC40031AD8B /* PayoneerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002366E2658ECC40031AD8B /* PayoneerTests.swift */; };
+		A002367A2658ECC40031AD8B /* PayoneerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00236792658ECC40031AD8B /* PayoneerUITests.swift */; };
+		A01E0F1226666AD50074D84B /* PaymentMethodsData.json in Resources */ = {isa = PBXBuildFile; fileRef = A01E0F1126666AD50074D84B /* PaymentMethodsData.json */; };
+		A01E0F1726666B030074D84B /* PaymentMethodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01E0F1626666B030074D84B /* PaymentMethodsTests.swift */; };
+		A052A256266667260002464F /* PaymentMethodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052A255266667260002464F /* PaymentMethodDetails.swift */; };
+		A077AE73266652E90011230F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A077AE72266652E90011230F /* Localizable.strings */; };
+		A077AE7A266653230011230F /* PaymentMethodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077AE79266653230011230F /* PaymentMethodsTableViewController.swift */; };
+		A077AE802666533E0011230F /* PaymentMethodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077AE7F2666533E0011230F /* PaymentMethodTableViewCell.swift */; };
+		A077AE952666538C0011230F /* LocationRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077AE942666538C0011230F /* LocationRepresentable.swift */; };
+		A077AE9A2666539A0011230F /* PaymentMethodsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077AE992666539A0011230F /* PaymentMethodsListViewModel.swift */; };
+		A0A4018826665A840094614D /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4018226665A840094614D /* UIStoryboard.swift */; };
+		A0A4018926665A840094614D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4018326665A840094614D /* UITableView.swift */; };
+		A0A4018A26665A840094614D /* UIColor+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4018426665A840094614D /* UIColor+Base.swift */; };
+		A0A4018B26665A840094614D /* NSDate+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4018526665A840094614D /* NSDate+Formatter.swift */; };
+		A0A4018C26665A840094614D /* NSString+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4018626665A840094614D /* NSString+Localization.swift */; };
+		A0A4018D26665A840094614D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4018726665A840094614D /* UIViewController.swift */; };
+		A0A4019B2666601E0094614D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A4019A2666601E0094614D /* Colors.xcassets */; };
+		A0CF9031266657C00004354F /* PaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF9030266657C00004354F /* PaymentMethods.swift */; };
+		A0D21F75265D218900D971EC /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D21F74265D218900D971EC /* Styles.swift */; };
+		A0D21F7D265D21B000D971EC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D21F7C265D21B000D971EC /* Configuration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A002366B2658ECC40031AD8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A002364C2658ECC00031AD8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00236532658ECC00031AD8B;
+			remoteInfo = Payoneer;
+		};
+		A00236762658ECC40031AD8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A002364C2658ECC00031AD8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00236532658ECC00031AD8B;
+			remoteInfo = Payoneer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00236542658ECC00031AD8B /* Collins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00236572658ECC00031AD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00236592658ECC00031AD8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A002365B2658ECC00031AD8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A002365E2658ECC00031AD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00236602658ECC30031AD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00236632658ECC30031AD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00236652658ECC30031AD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A002366A2658ECC40031AD8B /* PayoneerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayoneerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A002366E2658ECC40031AD8B /* PayoneerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoneerTests.swift; sourceTree = "<group>"; };
+		A00236702658ECC40031AD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00236752658ECC40031AD8B /* PayoneerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayoneerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00236792658ECC40031AD8B /* PayoneerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoneerUITests.swift; sourceTree = "<group>"; };
+		A002367B2658ECC40031AD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01E0F1126666AD50074D84B /* PaymentMethodsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PaymentMethodsData.json; sourceTree = "<group>"; };
+		A01E0F1626666B030074D84B /* PaymentMethodsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodsTests.swift; sourceTree = "<group>"; };
+		A052A255266667260002464F /* PaymentMethodDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodDetails.swift; sourceTree = "<group>"; };
+		A077AE72266652E90011230F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A077AE79266653230011230F /* PaymentMethodsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodsTableViewController.swift; sourceTree = "<group>"; };
+		A077AE7F2666533E0011230F /* PaymentMethodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodTableViewCell.swift; sourceTree = "<group>"; };
+		A077AE942666538C0011230F /* LocationRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationRepresentable.swift; sourceTree = "<group>"; };
+		A077AE992666539A0011230F /* PaymentMethodsListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodsListViewModel.swift; sourceTree = "<group>"; };
+		A0A4018226665A840094614D /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		A0A4018326665A840094614D /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		A0A4018426665A840094614D /* UIColor+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Base.swift"; sourceTree = "<group>"; };
+		A0A4018526665A840094614D /* NSDate+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Formatter.swift"; sourceTree = "<group>"; };
+		A0A4018626665A840094614D /* NSString+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Localization.swift"; sourceTree = "<group>"; };
+		A0A4018726665A840094614D /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		A0A4019A2666601E0094614D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A0CF9030266657C00004354F /* PaymentMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethods.swift; sourceTree = "<group>"; };
+		A0D21F74265D218900D971EC /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		A0D21F7C265D21B000D971EC /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00236512658ECC00031AD8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00236672658ECC40031AD8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00236722658ECC40031AD8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A002364B2658ECC00031AD8B = {
+			isa = PBXGroup;
+			children = (
+				A00236562658ECC00031AD8B /* Payoneer */,
+				A002366D2658ECC40031AD8B /* PayoneerTests */,
+				A00236782658ECC40031AD8B /* PayoneerUITests */,
+				A00236552658ECC00031AD8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00236552658ECC00031AD8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00236542658ECC00031AD8B /* Collins.app */,
+				A002366A2658ECC40031AD8B /* PayoneerTests.xctest */,
+				A00236752658ECC40031AD8B /* PayoneerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00236562658ECC00031AD8B /* Payoneer */ = {
+			isa = PBXGroup;
+			children = (
+				A0A4018126665A680094614D /* Extensions */,
+				A077AEAE2666561A0011230F /* Model */,
+				A077AE77266652FA0011230F /* Modules */,
+				A077AE70266652D90011230F /* Common */,
+				A0D21F73265D217600D971EC /* Config */,
+				A00236572658ECC00031AD8B /* AppDelegate.swift */,
+				A00236592658ECC00031AD8B /* SceneDelegate.swift */,
+				A002365B2658ECC00031AD8B /* ViewController.swift */,
+				A002365D2658ECC00031AD8B /* Main.storyboard */,
+				A00236602658ECC30031AD8B /* Assets.xcassets */,
+				A0A4019A2666601E0094614D /* Colors.xcassets */,
+				A00236622658ECC30031AD8B /* LaunchScreen.storyboard */,
+				A00236652658ECC30031AD8B /* Info.plist */,
+			);
+			path = Payoneer;
+			sourceTree = "<group>";
+		};
+		A002366D2658ECC40031AD8B /* PayoneerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A01E0F1026666ABE0074D84B /* Stubs */,
+				A01E0F0F26666A970074D84B /* TestCases */,
+				A002366E2658ECC40031AD8B /* PayoneerTests.swift */,
+				A00236702658ECC40031AD8B /* Info.plist */,
+			);
+			path = PayoneerTests;
+			sourceTree = "<group>";
+		};
+		A00236782658ECC40031AD8B /* PayoneerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00236792658ECC40031AD8B /* PayoneerUITests.swift */,
+				A002367B2658ECC40031AD8B /* Info.plist */,
+			);
+			path = PayoneerUITests;
+			sourceTree = "<group>";
+		};
+		A01E0F0F26666A970074D84B /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				A01E0F1626666B030074D84B /* PaymentMethodsTests.swift */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
+		A01E0F1026666ABE0074D84B /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				A01E0F1126666AD50074D84B /* PaymentMethodsData.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		A052A253266666FF0002464F /* MethodDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A052A255266667260002464F /* PaymentMethodDetails.swift */,
+			);
+			path = MethodDetails;
+			sourceTree = "<group>";
+		};
+		A077AE70266652D90011230F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A077AE71266652E00011230F /* Localization */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A077AE71266652E00011230F /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				A077AE72266652E90011230F /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		A077AE77266652FA0011230F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A052A253266666FF0002464F /* MethodDetails */,
+				A077AE78266653060011230F /* ListPaymentMethods */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A077AE78266653060011230F /* ListPaymentMethods */ = {
+			isa = PBXGroup;
+			children = (
+				A077AE9E2666539F0011230F /* ViewModel */,
+				A077AE93266653820011230F /* Protocol */,
+				A077AE7E266653350011230F /* View */,
+				A077AE79266653230011230F /* PaymentMethodsTableViewController.swift */,
+			);
+			path = ListPaymentMethods;
+			sourceTree = "<group>";
+		};
+		A077AE7E266653350011230F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A077AE7F2666533E0011230F /* PaymentMethodTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A077AE93266653820011230F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A077AE942666538C0011230F /* LocationRepresentable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A077AE9E2666539F0011230F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A077AE992666539A0011230F /* PaymentMethodsListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A077AEAE2666561A0011230F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0CF9030266657C00004354F /* PaymentMethods.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0A4018126665A680094614D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A0A4018526665A840094614D /* NSDate+Formatter.swift */,
+				A0A4018626665A840094614D /* NSString+Localization.swift */,
+				A0A4018426665A840094614D /* UIColor+Base.swift */,
+				A0A4018226665A840094614D /* UIStoryboard.swift */,
+				A0A4018326665A840094614D /* UITableView.swift */,
+				A0A4018726665A840094614D /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A0D21F73265D217600D971EC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A0D21F74265D218900D971EC /* Styles.swift */,
+				A0D21F7C265D21B000D971EC /* Configuration.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00236532658ECC00031AD8B /* Collins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A002367E2658ECC40031AD8B /* Build configuration list for PBXNativeTarget "Collins" */;
+			buildPhases = (
+				A00236502658ECC00031AD8B /* Sources */,
+				A00236512658ECC00031AD8B /* Frameworks */,
+				A00236522658ECC00031AD8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Collins;
+			productName = Payoneer;
+			productReference = A00236542658ECC00031AD8B /* Collins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00236692658ECC40031AD8B /* PayoneerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00236812658ECC40031AD8B /* Build configuration list for PBXNativeTarget "PayoneerTests" */;
+			buildPhases = (
+				A00236662658ECC40031AD8B /* Sources */,
+				A00236672658ECC40031AD8B /* Frameworks */,
+				A00236682658ECC40031AD8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A002366C2658ECC40031AD8B /* PBXTargetDependency */,
+			);
+			name = PayoneerTests;
+			productName = PayoneerTests;
+			productReference = A002366A2658ECC40031AD8B /* PayoneerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00236742658ECC40031AD8B /* PayoneerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00236842658ECC40031AD8B /* Build configuration list for PBXNativeTarget "PayoneerUITests" */;
+			buildPhases = (
+				A00236712658ECC40031AD8B /* Sources */,
+				A00236722658ECC40031AD8B /* Frameworks */,
+				A00236732658ECC40031AD8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00236772658ECC40031AD8B /* PBXTargetDependency */,
+			);
+			name = PayoneerUITests;
+			productName = PayoneerUITests;
+			productReference = A00236752658ECC40031AD8B /* PayoneerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A002364C2658ECC00031AD8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A00236532658ECC00031AD8B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A00236692658ECC40031AD8B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A00236532658ECC00031AD8B;
+					};
+					A00236742658ECC40031AD8B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A00236532658ECC00031AD8B;
+					};
+				};
+			};
+			buildConfigurationList = A002364F2658ECC00031AD8B /* Build configuration list for PBXProject "Payoneer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A002364B2658ECC00031AD8B;
+			productRefGroup = A00236552658ECC00031AD8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00236532658ECC00031AD8B /* Collins */,
+				A00236692658ECC40031AD8B /* PayoneerTests */,
+				A00236742658ECC40031AD8B /* PayoneerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00236522658ECC00031AD8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A4019B2666601E0094614D /* Colors.xcassets in Resources */,
+				A00236642658ECC30031AD8B /* LaunchScreen.storyboard in Resources */,
+				A077AE73266652E90011230F /* Localizable.strings in Resources */,
+				A00236612658ECC30031AD8B /* Assets.xcassets in Resources */,
+				A002365F2658ECC00031AD8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00236682658ECC40031AD8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01E0F1226666AD50074D84B /* PaymentMethodsData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00236732658ECC40031AD8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00236502658ECC00031AD8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002365C2658ECC00031AD8B /* ViewController.swift in Sources */,
+				A0A4018D26665A840094614D /* UIViewController.swift in Sources */,
+				A0D21F7D265D21B000D971EC /* Configuration.swift in Sources */,
+				A0A4018A26665A840094614D /* UIColor+Base.swift in Sources */,
+				A077AE802666533E0011230F /* PaymentMethodTableViewCell.swift in Sources */,
+				A00236582658ECC00031AD8B /* AppDelegate.swift in Sources */,
+				A002365A2658ECC00031AD8B /* SceneDelegate.swift in Sources */,
+				A077AE9A2666539A0011230F /* PaymentMethodsListViewModel.swift in Sources */,
+				A052A256266667260002464F /* PaymentMethodDetails.swift in Sources */,
+				A0A4018C26665A840094614D /* NSString+Localization.swift in Sources */,
+				A077AE7A266653230011230F /* PaymentMethodsTableViewController.swift in Sources */,
+				A077AE952666538C0011230F /* LocationRepresentable.swift in Sources */,
+				A0CF9031266657C00004354F /* PaymentMethods.swift in Sources */,
+				A0D21F75265D218900D971EC /* Styles.swift in Sources */,
+				A0A4018826665A840094614D /* UIStoryboard.swift in Sources */,
+				A0A4018926665A840094614D /* UITableView.swift in Sources */,
+				A0A4018B26665A840094614D /* NSDate+Formatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00236662658ECC40031AD8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002366F2658ECC40031AD8B /* PayoneerTests.swift in Sources */,
+				A01E0F1726666B030074D84B /* PaymentMethodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00236712658ECC40031AD8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002367A2658ECC40031AD8B /* PayoneerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A002366C2658ECC40031AD8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00236532658ECC00031AD8B /* Collins */;
+			targetProxy = A002366B2658ECC40031AD8B /* PBXContainerItemProxy */;
+		};
+		A00236772658ECC40031AD8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00236532658ECC00031AD8B /* Collins */;
+			targetProxy = A00236762658ECC40031AD8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A002365D2658ECC00031AD8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A002365E2658ECC00031AD8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00236622658ECC30031AD8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00236632658ECC30031AD8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A002367C2658ECC40031AD8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A002367D2658ECC40031AD8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A002367F2658ECC40031AD8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Payoneer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collins.got.the.job.at.Payoneer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00236802658ECC40031AD8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Payoneer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collins.got.the.job.at.Payoneer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00236822658ECC40031AD8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collins.got.the.job.at.PayoneerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payoneer.app/Payoneer";
+			};
+			name = Debug;
+		};
+		A00236832658ECC40031AD8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collins.got.the.job.at.PayoneerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payoneer.app/Payoneer";
+			};
+			name = Release;
+		};
+		A00236852658ECC40031AD8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collins.got.the.job.at.PayoneerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Payoneer;
+			};
+			name = Debug;
+		};
+		A00236862658ECC40031AD8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayoneerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collins.got.the.job.at.PayoneerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Payoneer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A002364F2658ECC00031AD8B /* Build configuration list for PBXProject "Payoneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A002367C2658ECC40031AD8B /* Debug */,
+				A002367D2658ECC40031AD8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A002367E2658ECC40031AD8B /* Build configuration list for PBXNativeTarget "Collins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A002367F2658ECC40031AD8B /* Debug */,
+				A00236802658ECC40031AD8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00236812658ECC40031AD8B /* Build configuration list for PBXNativeTarget "PayoneerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00236822658ECC40031AD8B /* Debug */,
+				A00236832658ECC40031AD8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00236842658ECC40031AD8B /* Build configuration list for PBXNativeTarget "PayoneerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00236852658ECC40031AD8B /* Debug */,
+				A00236862658ECC40031AD8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A002364C2658ECC00031AD8B /* Project object */;
+}

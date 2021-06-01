@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+ //  Payoneer
+ //
+ //  Created by Collins Korir on 22/05/2021.
+  
+*/
+
+"loading" = "Loading...";
+"loader_text_login" = "Logging in...";
