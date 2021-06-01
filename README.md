@@ -7,3 +7,5 @@ Some interesting things I have included in the project:
 - Swift LINT
 - Localization
 - MVVC Architechture
+- SwiftGen (non library version)
+
